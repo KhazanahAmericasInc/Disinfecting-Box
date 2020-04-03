@@ -43,7 +43,7 @@ Also, in this project, you will be working with 110 V Alternating current, which
 ## License
 MIT License
 
-Copyright (c) [year] [fullname]
+Copyright (c) 2020 Disinfecting Box
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
