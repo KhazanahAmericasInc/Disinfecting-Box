@@ -1,3 +1,6 @@
+//CONFIGURE
+const long TIMER_DURATION = 900000;
+
 // Pins
 const byte UV_Left_pin = 3;
 const byte UV_Right_pin = 4;
@@ -76,7 +79,7 @@ void loop() {
   else { //on light on state
     unsigned long currentmillis = millis();
     unsigned long duration_ = abs(currentmillis - startTimer);
-    if (duration_ > 25000) {
+    if (duration_ > TIMER_DURATION) {
       digitalWrite(UV_Left_pin, LOW);
       digitalWrite(UV_Right_pin, LOW);
       digitalWrite(indicator_LED, LOW);
